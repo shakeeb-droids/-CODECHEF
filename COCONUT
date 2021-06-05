@@ -1,0 +1,28 @@
+//JUNE21C
+import java.io.*;
+import java.util.*;
+import java.lang.*;
+
+class chefcoco
+{
+    public static void main(String args[])throws IOException
+    {
+        Scanner sc = new Scanner (System.in);
+        int  t= sc.nextInt();
+        for(int i=0 ; i<t;i++)
+        {
+            int xa = sc.nextInt();
+             int xb = sc.nextInt();
+              int Xa = sc.nextInt(); 
+              int Xb = sc.nextInt();
+              int a,b;
+              a = Xa/xa;
+            
+              
+              b = Xb/xb;
+              
+              System.out.println(+(a+b));
+              
+        }
+    }
+}
